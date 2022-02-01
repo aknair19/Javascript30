@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background: cornsilk;
+}
+.keys{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center ;
+    
+}
+.key{
+    
+    border: 2px solid black;
+    
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    transition: all 0.37s;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+
+kbd{
+    font-size: 2rem;
+}
+
